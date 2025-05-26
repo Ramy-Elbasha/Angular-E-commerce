@@ -1,0 +1,8 @@
+.button {
+  position: relative;
+  bottom: 1rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  /* border: 1px solid; */
+}

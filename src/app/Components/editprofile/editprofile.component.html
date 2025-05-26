@@ -1,0 +1,71 @@
+<div class="w-50 mx-auto addform">
+  <form [formGroup]="profileForm">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">FullName</label>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="Tex:Ramy elbasha"
+        formControlName="fullName"
+      />
+    </div>
+    @if(this.req.fullName) {
+    <div class="text-danger">FullName is required</div>
+    }
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email</label>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="example@gmail.com"
+        formControlName="email"
+      />
+    </div>
+    @if(this.req.email) {
+    <div class="text-danger">Email is required</div>
+    }
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Phone</label>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="+123456789"
+        formControlName="phone"
+      />
+    </div>
+    @if(this.req.phone) {
+    <div class="text-danger">phone is required</div>
+    }
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Address</label>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="smouha"
+        formControlName="address"
+      />
+    </div>
+    @if(this.req.address) {
+    <div class="text-danger">Address is required</div>
+    }
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Job title</label>
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+        formControlName="jobTitle"
+      ></textarea>
+    </div>
+    @if(this.req.description) {
+    <div class="text-danger">Job title is required</div>
+    }
+  </form>
+  <button class="btn btn-primary mt-5 btn-lg" (click)="modifyitem()">
+    Modify profile
+  </button>
+</div>

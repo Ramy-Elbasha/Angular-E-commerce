@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+.itemheight {
+  height: 12rem;
+}
+.itemimg {
+  height: 10rem;
+  width: 5rem;
+}
+.itemDetailsimg {
+  height: 50rem;
+  width: 15rem;
+}
+
+.cartimg {
+  height: 9rem;
+  width: 9rem;
+}
+.addform {
+  margin: 8rem;
+}
+
+.categorywidth {
+  width: 20rem;
+}
+.btnclass {
+  border: none;
+  margin: 0.5rem;
+  position: relative;
+  bottom: 0.1rem;
+  background-color: white;
+  /* border-radius: 80%; */
+  height: 2rem;
+  width: 2rem;
+}
+.pointer {
+  cursor: pointer;
+}

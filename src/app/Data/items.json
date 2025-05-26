@@ -1,0 +1,336 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "title": "Horse Polo Classic Polo Shirt, Grass Green",
+      "price": 599,
+      "category": "Clothes",
+      "description": {
+        "": "Horse Polo premium quality products. Wonderful colors mix reflects the meaning of happiness. Comfortable, stylish, and elegant."
+      },
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0B4-f04FFzdduvpbdyFFONHoxSVurAp5Ww&s"
+    },
+    {
+      "title": "Wireless Bluetooth Headset X100",
+      "price": 22.99,
+      "category": "Electronic accessories",
+      "img": "https://m.media-amazon.com/images/I/61g+MrOKdcL._AC_UF894,1000_QL80_.jpg",
+      "description": "Lightweight over-ear headset with noise cancellation and 20-hour battery life.",
+      "id": "7ed8"
+    },
+    {
+      "id": "a174",
+      "title": "USB-C to Lightning Cable (3-Pack, 1m)",
+      "price": 12.99,
+      "category": "Electronic accessories",
+      "img": "https://m.media-amazon.com/images/I/41jTexH60yL.jpg",
+      "description": "Durable braided cables for fast charging and syncing Apple devices."
+    },
+    {
+      "id": "e1b1",
+      "title": " 5-Port USB Charging Hub",
+      "price": 19.49,
+      "category": "Electronic accessories",
+      "img": "https://www.3rafoty.com/images/product/product-featured-2321-1685052000.jpg",
+      "description": "Adjustable aluminum stand compatible with all laptops up to 17."
+    },
+    {
+      "id": "b63e",
+      "title": "Noise-Canceling Wired Earbuds",
+      "price": 15.89,
+      "category": "Electronic accessories",
+      "img": "https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/video-conferencing/zone-wired-earbuds/zone-wired-earbuds-og-image.png?v=1",
+      "description": "In-ear headphones with deep bass and built-in mic for calls."
+    },
+    {
+      "id": "2aed",
+      "title": "Universal Car Phone Mount",
+      "price": 10.49,
+      "category": "Electronic accessories",
+      "img": "https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzE2dEgxeEdyZEwuX0FDX1NMMTUwMF8uanBn.jpg",
+      "description": "Dashboard or windshield mount with 360° rotation and strong grip."
+    },
+    {
+      "id": "4b8f",
+      "title": "Wireless Charging Pad (10W)",
+      "price": 17.99,
+      "category": "Electronic accessories",
+      "img": "https://m.media-amazon.com/images/I/61oIAKY9s1L.jpg",
+      "description": "Slim and fast-charging pad for all Qi-enabled devices."
+    },
+    {
+      "id": "4cea",
+      "title": "Galaxy Z Flip Neo 5G – 256GB",
+      "price": 1099,
+      "category": "Mobile phones",
+      "img": "https://m.media-amazon.com/images/I/61XV1hG+m5L.jpg",
+      "description": "Foldable display with Snapdragon chip and ultra-compact design."
+    },
+    {
+      "id": "ae1e",
+      "title": "iPhone 16 Pro Max – 512GB",
+      "price": 1499,
+      "category": "Mobile phones",
+      "img": "https://incredideals.co/cdn/shop/files/IMG_6846_jpg_1f7432de-8085-42ec-88f9-285f75166c26.webp?v=1733285079&width=416",
+      "description": "Next-gen performance with A18 Pro chip and AI-powered camera system."
+    },
+    {
+      "id": "01bc",
+      "title": "OnePlus Aero X – 128GB",
+      "price": 799,
+      "category": "Mobile phones",
+      "img": "https://mobizil.com/wp-content/uploads/2017/06/OnePlus-X-800x500.jpg",
+      "description": "Smooth 120Hz AMOLED display with super-fast 100W charging."
+    },
+    {
+      "id": "0089",
+      "title": "Google Pixel 9 – 256GB",
+      "price": 899.99,
+      "category": "Mobile phones",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFMAiYZiFhe_wNI0yNJUG9aMl9dYYIZ_yLrg&s",
+      "description": "Clean Android experience with top-tier camera and AI tools."
+    },
+    {
+      "id": "77b4",
+      "title": "Xiaomi Note Ultra – 256GB",
+      "price": 649,
+      "category": "Mobile phones",
+      "img": "https://m.media-amazon.com/images/I/51Q+-U8vAVL.jpg",
+      "description": "Mid-range powerhouse with great camera and battery life."
+    },
+    {
+      "id": "d787",
+      "title": "Motorola G Power Max – 64GB",
+      "price": 229.99,
+      "category": "Mobile phones",
+      "img": "https://i5.walmartimages.com/seo/Motorola-Moto-G-Power-2021-64GB-Flash-Gray-Unlocked_cac53b70-a61e-4fa8-a30a-d284944c186f.9058f1ca36b357b99b0b7c6d85529503.png",
+      "description": "Budget-friendly phone with 3-day battery life and clean UI."
+    },
+    {
+      "id": "3",
+      "title": "UrbanFit Cotton Hoodie, Charcoal Gray",
+      "price": 749,
+      "category": "Clothes",
+      "description": {
+        "": "Stay warm and trendy with this ultra-soft hoodie. Designed for comfort and street style lovers."
+      },
+      "img": "https://cdn.myshoptet.com/usr/www.be52.eu/user/shop/big/1548_20230604-dsc0563.jpg?65593cb9"
+    },
+    {
+      "id": "4",
+      "title": "Elegant V-Neck Blouse, Soft Pink",
+      "price": 499,
+      "category": "Clothes",
+      "description": {
+        "": "A lightweight, breathable blouse perfect for spring days. Chic, simple, and elegant."
+      },
+      "img": "https://i5.walmartimages.com/asr/149ceee9-87f9-417a-bb05-840c41ab138b.9fcab2bcc1c87ee0d80a7c8763e111b4.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+    },
+    {
+      "id": "5",
+      "title": "Casual Denim Jacket, Washed Blue",
+      "price": 899,
+      "category": "Clothes",
+      "description": {
+        "": "A timeless denim jacket made for everyday wear. Features durable stitching and vintage wash."
+      },
+      "img": "https://ashanderie.com/cdn/shop/files/denim-jacket-vintage-blue-wash-denim-jacket-44905681977642.jpg?v=1715743876"
+    },
+    {
+      "id": "6",
+      "title": "Slim Fit Chinos, Khaki",
+      "price": 649,
+      "category": "Clothes",
+      "description": {
+        "": "Smart-casual chinos designed for versatility. Slim fit with stretch fabric for extra comfort."
+      },
+      "img": "https://www.dockland.com.eg/cdn/shop/files/S25-PTBA02-KA-1.jpg?v=1744111012"
+    },
+    {
+      "id": "7",
+      "title": "Men's Formal White Shirt",
+      "price": 699,
+      "category": "Clothes",
+      "description": {
+        "": "Classic white shirt suitable for business or formal occasions. Wrinkle-resistant and breathable."
+      },
+      "img": "https://savilerowco.com/cdn/shop/files/white-poplin-classic-fit-shirt-011wht_model-image.jpg?v=1722024923&width=800"
+    },
+    {
+      "id": "8",
+      "title": "Comfy Lounge Sweatpants, Navy Blue",
+      "price": 449,
+      "category": "Clothes",
+      "description": {
+        "": "Your perfect partner for cozy weekends. Elastic waist and soft fleece interior for ultimate comfort."
+      },
+      "img": "https://i5.walmartimages.com/seo/jjayotai-Oversized-Wide-Leg-Sweatpants-for-Women-Baggy-Fleece-Low-Rise-Sweatpants-Casual-Loose-Sweat-Pants-Comfy-Soft-Lounge-Pants-Dark-Blue-XXXL_63824acf-6c73-402f-a03c-3d21702d4f4a.9b9ec220da624b60604c9ff639bab016.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Sleeveless Summer Dress, Floral Print",
+      "price": 559,
+      "category": "Clothes",
+      "description": {
+        "": "Light, flowy, and breathable. Ideal for beach days or summer outings."
+      },
+      "img": "https://lascana.scene7.com/is/image/OttoUK/466w/beachtime-floral-summer-dress~708738FRSP.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Heavy Duty Winter Coat, Black",
+      "price": 1299,
+      "category": "Clothes",
+      "description": {
+        "": "Engineered for extreme cold. Waterproof shell with insulated lining keeps you warm and dry."
+      },
+      "img": "https://cdn.strauss.com/de/assets/pdp/images/Three_MainImage_Crop_Desktop/product/1.Release.3134650/Parka_e_s_iconic-273649-0-638266505772900080.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Basic Crew Neck T-Shirt, White",
+      "price": 199,
+      "category": "Clothes",
+      "description": {
+        "": "A wardrobe essential made from 100% organic cotton. Soft, breathable, and durable."
+      },
+      "img": "https://xcdn.next.co.uk/COMMON/Items/Default/Default/ItemImages/AltItemShot/315x472/369510s.jpg"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "8012",
+      "items": [
+        {
+          "id": "5101",
+          "title": "Men’s Classic Fit Cotton Polo Shirt",
+          "price": 22.99,
+          "quantity": 6,
+          "img": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1379265_alternate10?$rl_4x5_pdp$"
+        },
+        {
+          "id": "7ed8",
+          "title": "Wireless Bluetooth Headset X100",
+          "price": 22.99,
+          "quantity": 1,
+          "img": "https://m.media-amazon.com/images/I/61g+MrOKdcL._AC_UF894,1000_QL80_.jpg"
+        }
+      ],
+      "totalPrice": 180.242
+    },
+    {
+      "id": "0a88",
+      "items": [
+        {
+          "id": "2",
+          "title": "Horse Polo Classic Polo Shirt, Grass Green",
+          "price": 599,
+          "quantity": "23",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0B4-f04FFzdduvpbdyFFONHoxSVurAp5Ww&s"
+        },
+        {
+          "id": "b903",
+          "title": "Men’s Slim Fit Jeans – Dark Wash",
+          "price": 39.99,
+          "quantity": "23",
+          "img": "https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87022893_TO.jpg?imwidth=2048&imdensity=1&ts=1733738660356"
+        }
+      ],
+      "totalPrice": 16460.382
+    },
+    {
+      "id": "cbef",
+      "items": [
+        {
+          "id": "7ed8",
+          "title": "Wireless Bluetooth Headset X100",
+          "price": 22.99,
+          "quantity": 1,
+          "img": "https://m.media-amazon.com/images/I/61g+MrOKdcL._AC_UF894,1000_QL80_.jpg"
+        }
+      ],
+      "totalPrice": 25.749
+    },
+    {
+      "id": "78cf",
+      "items": [
+        {
+          "id": "ae1e",
+          "title": "iPhone 16 Pro Max – 512GB",
+          "price": 1499,
+          "quantity": 1,
+          "img": "https://incredideals.co/cdn/shop/files/IMG_6846_jpg_1f7432de-8085-42ec-88f9-285f75166c26.webp?v=1733285079&width=416"
+        },
+        {
+          "id": "01bc",
+          "title": "OnePlus Aero X – 128GB",
+          "price": 799,
+          "quantity": 2,
+          "img": "https://mobizil.com/wp-content/uploads/2017/06/OnePlus-X-800x500.jpg"
+        }
+      ],
+      "totalPrice": 3468.64
+    },
+    {
+      "id": "f833",
+      "items": [
+        {
+          "id": "4cea",
+          "title": "Galaxy Z Flip Neo 5G – 256GB",
+          "price": 1099,
+          "quantity": 1,
+          "img": "https://m.media-amazon.com/images/I/61XV1hG+m5L.jpg"
+        },
+        {
+          "id": "01bc",
+          "title": "OnePlus Aero X – 128GB",
+          "price": 799,
+          "quantity": 1,
+          "img": "https://mobizil.com/wp-content/uploads/2017/06/OnePlus-X-800x500.jpg"
+        }
+      ],
+      "totalPrice": 1230.88
+    },
+    {
+      "id": "b550",
+      "items": [
+        {
+          "id": "7ed8",
+          "title": "Wireless Bluetooth Headset X100",
+          "price": 22.99,
+          "quantity": 1,
+          "img": "https://m.media-amazon.com/images/I/61g+MrOKdcL._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "id": "e1b1",
+          "title": " 5-Port USB Charging Hub",
+          "price": 19.49,
+          "quantity": 1,
+          "img": "https://www.3rafoty.com/images/product/product-featured-2321-1685052000.jpg"
+        }
+      ],
+      "totalPrice": 47.578
+    },
+    {
+      "id": "26e4",
+      "items": [
+        {
+          "id": "2",
+          "title": "Horse Polo Classic Polo Shirt, Grass Green",
+          "price": 599,
+          "quantity": 1,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0B4-f04FFzdduvpbdyFFONHoxSVurAp5Ww&s"
+        }
+      ],
+      "totalPrice": 670.88
+    }
+  ],
+  "profile": {
+    "fullName": "Ramy elbasha",
+    "email": "Ramyelbasha2@gmail.com",
+    "phone": "01000648408",
+    "address": "El asdeqaa mosque street",
+    "jobTitle": "Full Stack Developer"
+  }
+}
