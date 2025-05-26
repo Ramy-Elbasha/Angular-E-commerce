@@ -324,6 +324,19 @@
         }
       ],
       "totalPrice": 670.88
+    },
+    {
+      "id": "b23d",
+      "items": [
+        {
+          "id": "e1b1",
+          "title": " 5-Port USB Charging Hub",
+          "price": 19.49,
+          "quantity": 1,
+          "img": "https://www.3rafoty.com/images/product/product-featured-2321-1685052000.jpg"
+        }
+      ],
+      "totalPrice": 21.829
     }
   ],
   "profile": {
