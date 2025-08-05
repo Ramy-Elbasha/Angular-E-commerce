@@ -7,6 +7,7 @@ import {
 } from '@angular/forms';
 import { ItemsService } from '../../Services/items.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { UserService } from '../../Services/user.service';
 
 @Component({
   selector: 'app-editprofile',
@@ -17,6 +18,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class EditprofileComponent {
   constructor(
+    public UserService: UserService,
     public itemservice: ItemsService,
     public router: Router,
     public url: ActivatedRoute
@@ -24,46 +26,42 @@ export class EditprofileComponent {
   id: any;
   user: any;
   ngOnInit() {
-    this.url.params.subscribe((params) => {
-      this.id = params['id'];
-      this.itemservice.getprofile().subscribe({
-        next: (data: any) => {
-          this.user = data;
-          console.log(this.user);
-          this.profileForm.patchValue({
-            fullName: data.fullName,
-            email: data.email,
-            phone: data.phone,
-            address: data.address,
-            jobTitle: data.jobTitle,
-          });
-        },
-        error: (err: any) => {
-          this.router.navigate(['/error']);
-          console.log(err);
-        },
-      });
+    this.UserService.getuser().subscribe({
+      next: (data: any) => {
+        this.user = data;
+        console.log(this.user);
+        this.profileForm.patchValue({
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          address: data.address,
+        });
+      },
+      error: (err: any) => {
+        this.router.navigate(['/login']);
+        console.log(err);
+      },
     });
+
   }
   profileForm = new FormGroup({
-    fullName: new FormControl('', Validators.required),
+    name: new FormControl('', Validators.required),
     email: new FormControl('', [Validators.required, Validators.email]),
     phone: new FormControl('', Validators.required),
     address: new FormControl('', Validators.required),
-    jobTitle: new FormControl('', Validators.required),
   });
   req: any = {
-    fullName: false,
+    name: false,
     email: false,
     phone: false,
     address: false,
     jobTitle: false,
   };
 
-  modifyitem() {
+  modifyUser() {
     if (!this.profileForm.valid) {
-      if (!this.profileForm.controls.fullName.valid) {
-        this.req.fullName = true;
+      if (!this.profileForm.controls.name.valid) {
+        this.req.name = true;
         console.log('fullName');
       }
       if (!this.profileForm.controls.email.valid) {
@@ -78,12 +76,9 @@ export class EditprofileComponent {
         this.req.address = true;
         console.log('address');
       }
-      if (!this.profileForm.controls.jobTitle.valid) {
-        this.req.jobTitle = true;
-        console.log('jobTitle');
-      }
+  
     } else {
-      this.itemservice.modifyprofile(this.profileForm.value).subscribe({
+      this.UserService.modifyuser(this.profileForm.value).subscribe({
         next: () => this.router.navigate(['/profile']),
         error: (err: any) => console.log(err),
       });

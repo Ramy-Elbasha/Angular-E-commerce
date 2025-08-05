@@ -31,8 +31,26 @@
                       type="text"
                       id="username"
                       class="form-control form-control-lg"
-                      placeholder="Full Name"
+                      placeholder="UserName"
                       formControlName="name"
+                    />
+                  </div>
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input
+                      type="text"
+                      id="username"
+                      class="form-control form-control-lg"
+                      placeholder="Phone"
+                      formControlName="phone"
+                    />
+                  </div>
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input
+                      type="text"
+                      id="username"
+                      class="form-control form-control-lg"
+                      placeholder="Address"
+                      formControlName="address"
                     />
                   </div>
                   <div data-mdb-input-init class="form-outline mb-4">
@@ -43,10 +61,10 @@
                       placeholder="Email address"
                       formControlName="email"
                     />
-                    @if(emailexist)
+                    @if(req.email)
                     {
 
-                      <span class="text-danger">this email is already exist</span>
+                      <span class="text-danger">this email is required exist</span>
                     }
                   </div>
 

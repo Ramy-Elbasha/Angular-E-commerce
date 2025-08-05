@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ItemsService } from '../../Services/items.service';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { UserService } from '../../Services/user.service';
 
 @Component({
   selector: 'app-profile',
@@ -12,20 +12,28 @@ import { Router } from '@angular/router';
 export class ProfileComponent {
   user: any = {};
   orders: any = [];
-  constructor(public itemService: ItemsService, public router: Router) {}
+  isAuthenticated = true;
+  constructor(public UserService: UserService, public router: Router) {}
   ngOnInit() {
-    this.itemService.getprofile().subscribe({
-      next: (data) => (this.user = data),
-      error: (err) => console.log(err),
-    });
-    this.itemService.getOrders().subscribe({
+    this.UserService.getuser().subscribe({
       next: (data) => {
-        this.orders = data;
+        this.user = data;
+        console.log(this.user);
       },
-      error: (err) => console.log(err),
+      error: (err) => {
+        console.log(err);
+        this.isAuthenticated = false;
+        this.router.navigate(['/login']);
+      },
     });
+    // this.User.getOrders().subscribe({
+    //   next: (data) => {
+    //     this.orders = data;
+    //   },
+    //   error: (err) => console.log(err),
+    // });
   }
   modifyprofile() {
-    this.router.navigate(['/profile/1']);
+    this.router.navigate([`/profile/edit`]);
   }
 }

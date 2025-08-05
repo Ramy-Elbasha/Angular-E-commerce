@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ItemsService {
+  itemsAPIurl = 'http://localhost:8000/api';
   itemsurl = 'http://localhost:8000';
   cartitemsurl = 'http://localhost:3000/cart';
   ordersURL = 'http://localhost:3000/orders';
@@ -19,10 +20,10 @@ export class ItemsService {
     return 'null';
   }
   getallitems() {
-    return this.http.get(this.itemsurl+"/api/items");
+    return this.http.get(this.itemsAPIurl+"/items");
   }
   getItemByID(id: any) {
-    return this.http.get(this.itemsurl + '/api/items/' + id);
+    return this.http.get(this.itemsurl + 'items/' + id);
   }
 
   getUserItems()

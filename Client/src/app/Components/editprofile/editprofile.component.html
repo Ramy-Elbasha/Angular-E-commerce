@@ -7,10 +7,10 @@
         class="form-control"
         id="exampleFormControlInput1"
         placeholder="Tex:Ramy elbasha"
-        formControlName="fullName"
+        formControlName="name"
       />
     </div>
-    @if(this.req.fullName) {
+    @if(this.req.name) {
     <div class="text-danger">FullName is required</div>
     }
     <div class="form-group">
@@ -52,20 +52,9 @@
     @if(this.req.address) {
     <div class="text-danger">Address is required</div>
     }
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Job title</label>
-      <textarea
-        class="form-control"
-        id="exampleFormControlTextarea1"
-        rows="3"
-        formControlName="jobTitle"
-      ></textarea>
-    </div>
-    @if(this.req.description) {
-    <div class="text-danger">Job title is required</div>
-    }
+
   </form>
-  <button class="btn btn-primary mt-5 btn-lg" (click)="modifyitem()">
+  <button class="btn btn-primary mt-5 btn-lg" (click)="modifyUser()">
     Modify profile
   </button>
 </div>
